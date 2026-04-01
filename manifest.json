@@ -232,6 +232,38 @@
         "blob/66b6e4c2f3b55b25afd9716f9d3c5afb47b15d4e.nq.gz",
         "blob/652c0500f752f4b3d0354230614066a56aa681f4.nq.gz",
         "blob/bd3b2b81c16a79617c00fed294f4361980428ee4.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/847cbb85b1c4e2a431d8547759495bb56a2e6c83.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/847cbb85b1c4e2a431d8547759495bb56a2e6c83.nq.gz",
+      "repolex": "aggregate/repolex/847cbb85b1c4e2a431d8547759495bb56a2e6c83.nq.gz",
+      "dep": "dep/847cbb85b1c4e2a431d8547759495bb56a2e6c83.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "82.0.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+          "githubTag": "v82.0.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.20.0",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubCommit": "708197d82827ba2d5ca78bcbb653c7102ce86dcd",
+          "githubTag": "2.20.0",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pygments/__init__.py"
+        }
       ]
     }
   ],
